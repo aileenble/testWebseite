@@ -1,0 +1,61 @@
+/*Navigationsleiste */
+
+.topBar {
+    width: 100%;
+    padding-bottom: 5rem;
+}
+
+.navButton {
+    color: gray;
+    display: inline-block;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    font-size: 0.7rem;
+    box-sizing: border-box;
+    border-bottom: 2px solid transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter !important;
+    float: right;
+}
+
+.navButton:hover {
+    border-bottom: 2px solid rgb(5, 152, 163);
+}
+
+
+/*sidebar*/
+
+.sidebar {
+    width: 5rem;
+    height: 30rem;
+    background-color: white;
+    position: fixed;
+    border-radius: 5px;
+    margin-left: 1rem;
+    box-shadow: 10px 10px 10px silver;
+}
+
+
+/*Begrueßungs Grafik mit Text */
+
+.WillkommenText {
+    float: left;
+    height: 500px;
+    width: 50%;
+    box-sizing: border-box;
+    align-items: center;
+    justify-self: center;
+    display: flex;
+    text-align: center;
+    padding: 3rem;
+    padding-left: 11rem;
+    font-size: 2.5rem;
+    color: rgb(5, 152, 163);
+}
+
+.willkommenscreen {
+    float: right;
+    padding-right: 10px;
+    box-sizing: border-box;
+    width: 50%;
+}
